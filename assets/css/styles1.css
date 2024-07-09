@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.typed {
+    font-weight: bold;
+}
+
+.typed-cursor {
+    font-weight: bold;
+    color: #18d26e;
+}
