@@ -48,6 +48,33 @@ a:hover {
 .name{
   filter: drop-shadow(1px 1px 20px yellow);
 }
+h1{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  position: relative;
+}
+h1 ::before,
+h1::after{
+  content:attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-out;
+}
+h1:hover::before{
+  color: #bb0000;
+  transform: translate(px,-px);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+h1:hover::after{
+  color: #e2d741b9;
+  transform: translate(24px,-24px);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 
 h1,
 h2,
