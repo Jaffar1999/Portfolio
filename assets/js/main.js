@@ -252,3 +252,10 @@
   new PureCounter();
 
 })()
+function viewResume() {
+  // Replace 'your_resume.pdf' with the actual name of your PDF file
+  var resumeUrl = 'assets/resume/Jaffar Web Developer.pdf';
+
+  // Open a new window or tab to display the resume
+  window.open(resumeUrl, '_blank');
+}
